@@ -42,8 +42,10 @@ body {
         display: flex;
         align-items: center;
         position: relative;
+
         .banner-content {
             position: relative;
+
             .banner-title {
                 position: absolute;
                 width: 694px;
@@ -105,26 +107,69 @@ body {
             }
         }
 
-        .banner-profile {
-
+        .banner-profile-main {
             position: absolute;
             width: 657px;
             height: 692px;
-            left: 673px;
+            left: 690px;
             top: 70px;
 
-            .banner-profile-img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
+            .banner-profile {
 
+                // position: absolute;
+                // width: 657px;
+                // height: 692px;
+                // left: 673px;
+                // top: 70px;
+                width: 528px;
+                height: 692px;
+                margin: auto;
+
+                .banner-profile-img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                .banner-chart {
+                    position: absolute;
+                    top: 140px;
+                    right: 24px;
+                    width: 189px;
+                    height: 117px;
+                    border-radius: 5px;
+
+                    .banner-chart-img {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 5px;
+                        object-fit: cover;
+                    }
+                }
+
+                .banner-hire {
+                    position: absolute;
+                    left: -17px;
+                    bottom: 10px;
+                    width: 200px;
+                    height: 124px;
+                    border-radius: 5px;
+
+                    .banner-hire-img {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 5px;
+                        object-fit: cover;
+                    }
+                }
+            }
         }
     }
 }
 
 .banner-card {
     margin-top: -100px;
+
     .banner-card-main {
         display: flex;
         gap: 30px;
